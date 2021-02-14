@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <a href='https://pngtree.com/so/yes-clipart'>yes clipart png from pngtree.com</a> -->
+    <div id="main">
+        <div class="header">
+            <h1>A todo list</h1>
+            <div id="date"><p>10 february 2021</p></div>
+        </div>
+        
+        <div id="under">
+            <input type="button" id="clear_btn" value="Clear">
+            <div id="infos">Write now !</div>
+        </div>
+
+        <ul id="list">
+            <li class="item checked">Manger</li>
+            <li class="item">Bouger</li>
+            <li class="item checked">Dormir</li>
+            <li class="item checked">Programmer !</li>
+        </ul>
+
+        <div class="foot">
+            <input type="text" id="input_text" placeholder="Write here a new todo">
+            <input type="button" id="add_btn" value="Add" onclick="add()">
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

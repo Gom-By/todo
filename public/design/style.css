@@ -1,0 +1,132 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+    border: none;
+    list-style: none;
+    font-family: 'Truculenta', sans-serif;
+}
+
+body {
+    background-color: rgb(7, 129, 129);
+}
+
+#main {
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(252, 232, 197);
+    border-radius: 12.5px;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(192, 168, 125);
+    border-top-left-radius: 12.5px;
+    border-top-right-radius: 12.5px;
+    margin-bottom: 10px;
+}
+.header h1 {
+    font-size: 60px;
+}
+
+#under {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+#under #clear_btn {
+    font-size: 25px;
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    outline: none;
+    background-color: red;
+    color: white;
+}
+#under #clear_btn:active {
+    border: 2px solid crimson;
+    filter: drop-shadow(0 0 5px black);
+}
+#under #infos {
+    font-size: 25px;
+    width: 100%;
+    border-bottom: 2px dashed black;
+}
+
+#list {
+    margin: 25px;
+    text-align: left;
+    font-size: 25px;
+}
+#list .item {
+    border-bottom: 2px solid black;
+}
+.item::before {
+    content:"";
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 6px; left: 0;
+    margin-right: 15px;
+}
+#list .item:first-child {
+    border-top: 2px solid black;
+}
+
+.foot {
+    padding: 15px;
+    width: auto;
+    height: 25px;
+    margin: auto;
+    background-color: rgb(192, 168, 125);
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+}
+.foot #input_text {
+    font-size: 20px;
+    border-radius: 12.5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    margin-right: 0px;
+}
+.foot #input_text:focus {
+    outline: none;
+    border: 1px solid red;
+}
+.foot #add_btn {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 12.5px;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+.foot #add_btn:active {
+    border: 2px solid crimson;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.699);
+}
+.checked::before {
+    content:"";
+    background: url('check_btn.png') no-repeat;
+    background-size: 100%;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 6px; left: 0;
+}
