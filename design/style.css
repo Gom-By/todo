@@ -84,7 +84,7 @@ body {
 .foot {
     padding: 25px;
     width: auto;
-    height: 100px;
+    height: 40px;
     margin: auto;
     background-color: rgb(192, 168, 125);
     border-bottom-left-radius: 12.5px;
@@ -104,7 +104,7 @@ body {
 .foot #add_btn {
     font-size: 20px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     border: 2px solid transparent;
     border-radius: 12.5px;
     background-color: red;
