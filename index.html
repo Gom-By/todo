@@ -13,20 +13,15 @@
     <div id="main">
         <div class="header">
             <h1>A todo list</h1>
-            <div id="date"><p>10 february 2021</p></div>
+            <div id="date"><p>No date now, wait for a futur update</p></div>
         </div>
         
         <div id="under">
-            <input type="button" id="clear_btn" value="Clear">
-            <div id="infos">Write now !</div>
+            <input type="button" id="clear_btn" value="Clear" onclick="clearAll()">
+            <div id="infos"></div>
         </div>
 
-        <ul id="list">
-            <li class="item checked">Manger</li>
-            <li class="item">Bouger</li>
-            <li class="item checked">Dormir</li>
-            <li class="item checked">Programmer !</li>
-        </ul>
+        <ul id="list"></ul>
 
         <div class="foot">
             <input type="text" id="input_text" placeholder="Write here a new todo">
