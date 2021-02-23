@@ -28,7 +28,7 @@ body {
     margin-bottom: 10px;
 }
 .header h1 {
-    font-size: 60px;
+    font-size: 65px;
 }
 
 #under {
@@ -39,7 +39,7 @@ body {
     margin-bottom: 40px;
 }
 #under #clear_btn {
-    font-size: 25px;
+    font-size: 30px;
     width: 100px;
     border: 2px solid transparent;
     border-radius: 50px;
@@ -52,7 +52,7 @@ body {
     filter: drop-shadow(0 0 5px black);
 }
 #under #infos {
-    font-size: 25px;
+    font-size: 30px;
     width: 100%;
     border-bottom: 2px dashed black;
 }
@@ -60,7 +60,7 @@ body {
 #list {
     margin: 25px;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
 }
 #list .item {
     border-bottom: 2px solid black;
@@ -91,7 +91,7 @@ body {
     border-bottom-right-radius: 12.5px;
 }
 .foot #input_text {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 12.5px;
     padding: 5px;
     border: 1px solid transparent;
