@@ -102,9 +102,9 @@ body {
     border: 1px solid red;
 }
 .foot #add_btn {
-    font-size: 20px;
+    font-size: 25px;
     width: 100px;
-    height: 40px;
+    height: 45px;
     border: 2px solid transparent;
     border-radius: 12.5px;
     background-color: red;
